@@ -1,0 +1,61 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textView_p_patientId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="200dp"
+            android:text="ID"/>
+        <TextView
+            android:id="@+id/textView_p_fName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="200dp"
+            android:text="FirstName" />
+        <TextView
+            android:id="@+id/textView_p_lName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="200dp"
+            android:text="LastName" />
+
+        <TextView
+            android:id="@+id/textView_p_dept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="200dp"
+            android:text="Dept." />
+
+        <TextView
+            android:id="@+id/textView_p_nurseId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="200dp"
+            android:text="NurseID" />
+
+        <TextView
+            android:id="@+id/textView_p_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="200dp"
+            android:text="Room" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
